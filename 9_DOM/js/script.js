@@ -32,5 +32,3 @@ console.log(prodQSelec);
 
 const mainContainer = document.querySelector('#main-container');
 console.log(mainContainer)
-
-console.log('Xirigutago');
