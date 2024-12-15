@@ -1,17 +1,17 @@
 // 1 - Movendo-se pelo DOM
-// console.log(document.body);
+console.log(document.body);
 
-// console.log(document.body.childNodes[1]);
+console.log(document.body.childNodes[1]);
 
-// console.log(document.body.childNodes[1].childNodes);
+console.log(document.body.childNodes[1].childNodes);
 
-// console.log(document.body.childNodes[1].childNodes[1].textContent);
+console.log(document.body.childNodes[1].childNodes[1].textContent);
 
 // 2 - getElementByTagName
 
-// const listItems = document.getElementsByTagName("li");
+const listItems = document.getElementsByTagName("li");
 
-// console.log(listItems);
+console.log(listItems);
 
 // 3 - Selecionando elemento por ID
 
