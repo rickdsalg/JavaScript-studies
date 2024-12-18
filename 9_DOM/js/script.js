@@ -49,3 +49,7 @@ const navLinks = document.querySelector("nav ul");
 const linkNew = document.createElement("li");
 
 navLinks.appendChild(linkNew);
+
+setTimeout(function(){
+    console.log(`We add new ${linkNew}`)
+}, 3000)
