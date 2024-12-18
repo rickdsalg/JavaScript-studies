@@ -79,4 +79,14 @@ console.log(firstLink);
 firstLink.setAttribute("href", "https://ricksalgado.ca/")
 console.log(firstLink.getAttribute('href'));
 
-firstLink.setAttribute("target", "_blank")
+firstLink.setAttribute("target", "_blank");
+
+// 11 - Width and Height
+const footer = document.querySelector("footer");
+
+console.log(footer.offsetWidth);
+console.log(footer.offsetHeight);
+
+
+console.log(footer.clientWidth);
+console.log(footer.clientHeight);
