@@ -40,4 +40,12 @@ const paragraph = document.createElement("p");
 
 const beforeTitle = tit.parentElement;
 
-beforeTitle.insertBefore(paragraph,tit)
+beforeTitle.insertBefore(paragraph,tit);
+
+// 7 - appendChild
+
+const navLinks = document.querySelector("nav ul");
+
+const linkNew = document.createElement("li");
+
+navLinks.appendChild(linkNew);
