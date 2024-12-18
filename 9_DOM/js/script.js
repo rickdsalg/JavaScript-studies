@@ -59,4 +59,15 @@ const titNew = document.createElement("h2");
 titNew.textContent = "New Title of this DOM";
 
 beforeTitle.replaceChild(titNew, tit);
-console.warn(tit)
+console.warn(tit);
+
+// 9 - createTextNode
+const myText = document.createTextNode("New text to be add");
+console.log(myText);
+
+const newLine = document.createElement("h3");
+
+newLine.appendChild(myText);
+console.log(newLine);
+
+mainContainer.appendChild(newLine)
