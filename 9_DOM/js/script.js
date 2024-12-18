@@ -52,4 +52,11 @@ navLinks.appendChild(linkNew);
 
 setTimeout(function(){
     console.log(`We add new ${linkNew}`)
-}, 3000)
+}, 3000);
+
+// 8 - replaceChild
+const titNew = document.createElement("h2");
+titNew.textContent = "New Title of this DOM";
+
+beforeTitle.replaceChild(titNew, tit);
+console.warn(tit)
