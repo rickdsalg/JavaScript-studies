@@ -71,3 +71,12 @@ newLine.appendChild(myText);
 console.log(newLine);
 
 mainContainer.appendChild(newLine)
+
+// 10 - trabalhando com atributos
+const firstLink = navLinks.querySelector("a");
+console.log(firstLink);
+
+firstLink.setAttribute("href", "https://ricksalgado.ca/")
+console.log(firstLink.getAttribute('href'));
+
+firstLink.setAttribute("target", "_blank")
