@@ -32,3 +32,12 @@ console.log(prodQSelec);
 
 const mainContainer = document.querySelector('#main-container');
 console.log(mainContainer)
+
+// 6 - insertBefore
+
+const paragraph = document.createElement("p");
+
+
+const beforeTitle = tit.parentElement;
+
+beforeTitle.insertBefore(paragraph,tit)
