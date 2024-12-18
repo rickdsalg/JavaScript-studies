@@ -91,7 +91,12 @@ console.log(footer.offsetHeight);
 console.log(footer.clientWidth);
 console.log(footer.clientHeight);
 
-// posicao do elemento
+//12 - posicao do elemento
 const product1 = prod[0];
 
 console.log(product1.getBoundingClientRect());
+
+// 13 - CSS com JS
+mainContainer.style.color = "red";
+mainContainer.style.backgroundColor = "grey";
+mainContainer.style.paddingBottom = "90px"
