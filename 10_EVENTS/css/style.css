@@ -2,3 +2,8 @@ body{
     padding-left: 24px;
     margin-bottom: 1000px;
 }
+
+div{
+    padding: 24px;
+    background-color: greenyellow;
+}
