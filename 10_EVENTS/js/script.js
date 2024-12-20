@@ -80,4 +80,12 @@ mouseEvent.addEventListener("dblclick", () => {
 document.addEventListener("mousemove", (e) => {
     // console.log(`mouse moved to ${e.x} in X`);
     // console.log(`mouse moved to ${e.y} in Y`);
-})
+});
+
+// 9 - Scroll event
+// the scroll event has to be setted on window, not on the document, because what we want to control is the action on the screen, not on our HTML
+window.addEventListener("scroll" , (e) => {
+    if (window.scrollY > 200) {
+        console.log("You scrolled more than 200px");
+    }
+});
