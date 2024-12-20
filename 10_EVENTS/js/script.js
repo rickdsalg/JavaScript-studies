@@ -109,4 +109,23 @@ window.addEventListener("load", () => {
 //     // e.returnValue = "Testing"
 // })
 
-    
+
+// 12 - Debounce
+const debouncing = (f, delay) => {
+    let timeout;
+
+    return(...arguments) => {
+        if(timeout){
+            clearTimeout(timeout);
+        }
+
+        timeout = setTimeout(() => {
+            f.apply(arguments);
+        }, delay);
+    };
+};
+
+window.addEventListener("mouseover", debouncing(() => {
+    console.log(`mouse is stop`)
+
+}, 400));
