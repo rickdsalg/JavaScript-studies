@@ -89,3 +89,13 @@ window.addEventListener("scroll" , (e) => {
         console.log("You scrolled more than 200px");
     }
 });
+
+// 10 - Focus/blur event
+const inputOne = document.getElementById('my-input');
+inputOne.addEventListener("focus", (e) => {
+    console.log("Input got the focus");
+});
+inputOne.addEventListener("blur", (e) => {
+    console.log("Input exit");
+});
+
