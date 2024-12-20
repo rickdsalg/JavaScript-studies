@@ -99,3 +99,14 @@ inputOne.addEventListener("blur", (e) => {
     console.log("Input exit");
 });
 
+// 11 - load event
+window.addEventListener("load", () => {
+    console.log("The page has been loaded");
+})
+
+// window.addEventListener("beforeunload", (e) => {
+//     // e.preventDefault();
+//     // e.returnValue = "Testing"
+// })
+
+    
