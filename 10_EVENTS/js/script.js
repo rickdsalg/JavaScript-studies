@@ -45,3 +45,11 @@ btnInsider.addEventListener("click", (e)=>{
     e.stopPropagation();
     console.log("Event 2");
 })
+
+// 5 - Prevent Event default
+const prevLink = document.getElementById('link-google');
+
+prevLink.addEventListener("click", (e) =>{
+    e.preventDefault();
+    console.log("Event default prevented");
+})
