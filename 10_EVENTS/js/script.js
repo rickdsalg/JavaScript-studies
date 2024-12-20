@@ -62,3 +62,16 @@ document.addEventListener("keyup", (e) => {
 document.addEventListener("keydown", (e) => {
     console.warn(`The user pressed the ${e.key} key`)
 });
+
+// 7 - Other mouse events
+const mouseEvent = document.getElementById('mouse-event');
+
+mouseEvent.addEventListener("mousedown", () => {
+    console.log("Mouse down");
+});
+mouseEvent.addEventListener("mouseup", () => {
+    console.log("Mouse clicked");
+});
+mouseEvent.addEventListener("dblclick", () => {
+    console.log("Doooouble Clicked");
+});
