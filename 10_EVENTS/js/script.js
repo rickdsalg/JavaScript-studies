@@ -53,3 +53,12 @@ prevLink.addEventListener("click", (e) =>{
     e.preventDefault();
     console.log("Event default prevented");
 })
+
+// 6 - Key events
+
+document.addEventListener("keyup", (e) => {
+    console.warn(`The user release the ${e.key} key`)
+});
+document.addEventListener("keydown", (e) => {
+    console.warn(`The user pressed the ${e.key} key`)
+});
