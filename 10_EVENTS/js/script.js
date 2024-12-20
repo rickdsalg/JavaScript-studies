@@ -75,3 +75,9 @@ mouseEvent.addEventListener("mouseup", () => {
 mouseEvent.addEventListener("dblclick", () => {
     console.log("Doooouble Clicked");
 });
+
+// 8 - Mouse moving
+document.addEventListener("mousemove", (e) => {
+    // console.log(`mouse moved to ${e.x} in X`);
+    // console.log(`mouse moved to ${e.y} in Y`);
+})
